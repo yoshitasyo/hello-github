@@ -1,0 +1,78 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "main.c",
+      "type": "cmake",
+      "command": "build",
+      "problemMatcher": "$gcc",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "cmake",
+      "label": "CMake: ビルド",
+      "command": "build",
+      "targets": [
+        "all"
+      ],
+      "preset": "${command:cmake.activeBuildPresetName}",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "CMake テンプレート ビルド タスク"
+    },
+    {
+      "type": "cmake",
+      "label": "CMake: ワークフロー",
+      "command": "workflow",
+      "preset": "${command:cmake.activeWorkflowPresetName}",
+      "problemMatcher": [],
+      "detail": "CMake テンプレート ワークフロー タスク"
+    },
+    {
+      "type": "cmake",
+      "label": "CMake: 構成",
+      "command": "configure",
+      "preset": "${command:cmake.activeConfigurePresetName}",
+      "problemMatcher": [],
+      "detail": "CMake テンプレート 構成 タスク"
+    },
+    {
+      "type": "cmake",
+      "label": "CMake: 構成",
+      "command": "configure",
+      "preset": "${command:cmake.activeConfigurePresetName}",
+      "problemMatcher": [],
+      "detail": "CMake テンプレート 構成 タスク"
+    },
+    {
+      "type": "cmake",
+      "label": "CMake: ビルド",
+      "command": "build",
+      "targets": [
+        "all"
+      ],
+      "preset": "${command:cmake.activeBuildPresetName}",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "CMake テンプレート ビルド タスク"
+    },
+    {
+      "type": "cmake",
+      "label": "CMake: ビルド",
+      "command": "build",
+      "targets": [
+        "all"
+      ],
+      "preset": "${command:cmake.activeBuildPresetName}",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "CMake テンプレート ビルド タスク"
+    }
+  ]
+}

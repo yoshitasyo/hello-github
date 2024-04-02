@@ -1,0 +1,3 @@
+C:/STM/Ltika/Ltika/build/debug/build/CMakeFiles/Ltika.dir
+C:/STM/Ltika/Ltika/build/debug/build/CMakeFiles/edit_cache.dir
+C:/STM/Ltika/Ltika/build/debug/build/CMakeFiles/rebuild_cache.dir
